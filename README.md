@@ -1,16 +1,19 @@
 ## Hi there 👋
 
-<!--
-**fukien/fukien** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+😄 I am Wentao Huang, a CS PhD candidate at [National University of Singapore](https://www.nus.edu.sg/), working with [Prof. Kian-Lee Tan](https://www.comp.nus.edu.sg/~tankl/).
 
-Here are some ideas to get you started:
+🧐 My research interests lie in database system development, especially in the field of query processing, and hardware-software co-design. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+👯 Please feel free to contact me via email at huangwentao@u.nus.edu. Further information about me is available on my [webpage](https://www.comp.nus.edu.sg/~huang/). 
+
+<br>
+  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fukien&show_icons=true&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fukien&layout=compact&theme=dark)
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=fukien&theme=darkhub)
+
+
+<!-- 
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=fukien&theme=dark)
 -->
+
