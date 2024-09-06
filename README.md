@@ -10,10 +10,10 @@
   
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fukien&show_icons=true&theme=dark)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fukien&layout=compact&theme=dark)
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=fukien&theme=darkhub)
 
 
 <!-- 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=fukien&theme=dark)
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=fukien&theme=darkhub)
 -->
 
