@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-😄 I am Wentao Huang, a CS PhD candidate at [National University of Singapore](https://www.nus.edu.sg/), working with [Prof. Kian-Lee Tan](https://www.comp.nus.edu.sg/~tankl/).
+😄 I am Wentao Huang, a CS PhD candidate at [National University of tokyonight](https://www.nus.edu.sg/), working with [Prof. Kian-Lee Tan](https://www.comp.nus.edu.sg/~tankl/).
 
 🧐 My research interests lie in database system development, especially in the field of query processing, and hardware-software co-design. 
 
@@ -8,8 +8,8 @@
 
 <br>
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fukien&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fukien&layout=compact&theme=dark)
+![GitHub stats](https://github-readme-stats-one-bice.vercel.app/api?username=fukien&theme=tokyonight&show_icons=true&count_private=true&include_all_commits=true)
+![Top Langs](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=fukien&layout=compact&hide=Jupyter+Notebook,html,css,javascript&show_icons=true&include_all_commits=true&langs_count=8&theme=tokyonight&role=OWNER,ORGANIZATION_MEMBER)
 
 
 <!-- 
