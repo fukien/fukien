@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-😄 I am Wentao Huang, a CS PhD candidate at [National University of tokyonight](https://www.nus.edu.sg/), working with [Prof. Kian-Lee Tan](https://www.comp.nus.edu.sg/~tankl/).
+😄 I am Wentao Huang, a CS PhD candidate at [National University of Singapore](https://www.nus.edu.sg/), working with [Prof. Kian-Lee Tan](https://www.comp.nus.edu.sg/~tankl/).
 
 🧐 My research interests lie in database system development, especially in the field of query processing, and hardware-software co-design. 
 
