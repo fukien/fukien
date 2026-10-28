@@ -9,7 +9,25 @@
 <br>
 
 <!-- github-commit-stats:start -->
-**GitHub-recognized commits:** _count will be populated by the Update commit stats workflow_
+**GitHub-recognized commits (all time):** 503 (updated 2026-10-28)
+
+<details><summary>Commits by year</summary>
+
+| Year | Commit contributions |
+|---:|---:|
+| 2016 | 0 |
+| 2017 | 32 |
+| 2018 | 188 |
+| 2019 | 6 |
+| 2020 | 127 |
+| 2021 | 17 |
+| 2022 | 20 |
+| 2023 | 23 |
+| 2024 | 23 |
+| 2025 | 7 |
+| 2026 | 60 |
+
+</details>
 <!-- github-commit-stats:end -->
 
 The count follows GitHub's contribution rules. Set the `PROFILE_STATS_TOKEN` Actions secret with the `read:user` scope and enable private contribution visibility on GitHub to include private contribution counts.
