@@ -8,6 +8,7 @@ import datetime as dt
 import html
 import json
 import os
+import re
 import ssl
 import sys
 import urllib.error
@@ -145,6 +146,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--username", default=os.getenv("GITHUB_REPOSITORY_OWNER", "fukien"))
     parser.add_argument("--svg", type=Path, default=Path("assets/github-stats.svg"))
+    parser.add_argument("--readme", type=Path, default=Path("README.md"))
     args = parser.parse_args()
 
     token = (
@@ -196,6 +198,16 @@ def main() -> int:
 
     args.svg.parent.mkdir(parents=True, exist_ok=True)
     args.svg.write_text(svg, encoding="utf-8")
+    readme = args.readme.read_text(encoding="utf-8")
+    image_pattern = re.compile(r"!\[GitHub stats\]\(assets/github-stats\.svg(?:\?v=[^)]+)?\)")
+    image, replacements = image_pattern.subn(
+        f"![GitHub stats](assets/github-stats.svg?v={now.strftime('%Y%m%d%H%M%S')})",
+        readme,
+        count=1,
+    )
+    if replacements != 1:
+        raise RuntimeError(f"Expected one GitHub stats image reference in {args.readme}")
+    args.readme.write_text(image, encoding="utf-8")
     print(f"Updated {args.svg} with {totals['commits']:,} GitHub-recognized commits.")
     return 0
 
