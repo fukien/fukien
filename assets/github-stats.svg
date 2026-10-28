@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
+  <title id="title">Wentao Huang's GitHub Stats</title>
+  <desc id="desc">Stars earned on public repositories: 62. Public GitHub commit contributions: 503.</desc>
+  <style>
+    .bg { fill: #1a1b27; stroke: #e4e2e2; }
+    .title { fill: #70a5fd; font: 600 18px 'Segoe UI', Ubuntu, sans-serif; }
+    .label, .value { fill: #38bdae; font: 600 14px 'Segoe UI', Ubuntu, sans-serif; }
+    .value { font-weight: 700; }
+    .scope { fill: #a9b1d6; font: 11px 'Segoe UI', Ubuntu, sans-serif; }
+  </style>
+  <rect class="bg" x="0.5" y="0.5" width="494" height="194" rx="4.5" />
+  <text class="title" x="25" y="35">Wentao Huang's GitHub Stats</text>
+  <g transform="translate(25,84)">
+    <text class="label" x="0" y="0">Total Stars Earned</text>
+    <text class="value" x="225" y="0">62</text>
+  </g>
+  <g transform="translate(25,117)">
+    <text class="label" x="0" y="0">Public Commits</text>
+    <text class="value" x="225" y="0">503</text>
+  </g>
+  <text class="scope" x="25" y="184">Public GitHub data · updated 2026-10-28</text>
+</svg>
