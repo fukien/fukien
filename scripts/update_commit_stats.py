@@ -193,8 +193,9 @@ def main() -> int:
     args.svg.write_text(svg, encoding="utf-8")
     readme = args.readme.read_text(encoding="utf-8")
     pattern = re.compile(r"!\[GitHub stats\]\(assets/github-stats\.svg(?:\?v=[^)]+)?\)")
+    cache_version = os.getenv("GITHUB_RUN_ID") or now.strftime("%Y%m%d%H%M%S")
     updated_readme, replacements = pattern.subn(
-        f"![GitHub stats](assets/github-stats.svg?v={now.strftime('%Y%m%d%H%M%S')})",
+        f"![GitHub stats](assets/github-stats.svg?v={cache_version})",
         readme,
         count=1,
     )
