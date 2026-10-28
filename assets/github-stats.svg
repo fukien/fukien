@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
-  <title id="title">Wentao Huang's GitHub Stats</title>
-  <desc id="desc">Stars earned on public repositories: 62. Public GitHub commit contributions: 503.</desc>
+  <title id="title">Wentao Huang&#x27;s GitHub Stats</title>
+  <desc id="desc">Stars earned: 62. Commits: 504. Pull requests: 7. Issues: 18. Public GitHub data · updated 2026-10-28.</desc>
   <style>
     .bg { fill: #1a1b27; stroke: #e4e2e2; }
     .title { fill: #70a5fd; font: 600 18px 'Segoe UI', Ubuntu, sans-serif; }
@@ -9,14 +9,19 @@
     .scope { fill: #a9b1d6; font: 11px 'Segoe UI', Ubuntu, sans-serif; }
   </style>
   <rect class="bg" x="0.5" y="0.5" width="494" height="194" rx="4.5" />
-  <text class="title" x="25" y="35">Wentao Huang's GitHub Stats</text>
-  <g transform="translate(25,84)">
-    <text class="label" x="0" y="0">Total Stars Earned</text>
-    <text class="value" x="225" y="0">62</text>
-  </g>
-  <g transform="translate(25,117)">
-    <text class="label" x="0" y="0">Public Commits</text>
-    <text class="value" x="225" y="0">503</text>
-  </g>
+  <text class="title" x="25" y="35">Wentao Huang&#x27;s GitHub Stats</text>
+  <g transform="translate(25,76)">
+  <text class="label" x="0" y="0">Total Stars Earned</text>
+  <text class="value" x="225" y="0">62</text>
+</g><g transform="translate(25,103)">
+  <text class="label" x="0" y="0">Public Commits</text>
+  <text class="value" x="225" y="0">504</text>
+</g><g transform="translate(25,130)">
+  <text class="label" x="0" y="0">Total Pull Requests</text>
+  <text class="value" x="225" y="0">7</text>
+</g><g transform="translate(25,157)">
+  <text class="label" x="0" y="0">Total Issues</text>
+  <text class="value" x="225" y="0">18</text>
+</g>
   <text class="scope" x="25" y="184">Public GitHub data · updated 2026-10-28</text>
 </svg>
