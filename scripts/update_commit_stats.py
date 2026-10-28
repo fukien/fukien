@@ -122,6 +122,7 @@ def make_svg(
     .label, .value {{ fill: #38bdae; font: 600 13px 'Segoe UI', Ubuntu, sans-serif; }}
     .value {{ font-weight: 700; }}
     .rank-rim {{ fill: none; stroke: #70a5fd; stroke-width: 6; opacity: .2; }}
+    .rank-progress {{ fill: none; stroke: #70a5fd; stroke-width: 6; stroke-linecap: round; stroke-dasharray: 250; stroke-dashoffset: 117.29413298583665; opacity: .8; }}
     .rank {{ fill: #38bdae; font: 800 27px 'Segoe UI', Ubuntu, sans-serif; }}
     .rank-caption {{ fill: #a9b1d6; font: 11px 'Segoe UI', Ubuntu, sans-serif; }}
     .updated {{ fill: #a9b1d6; font: 10px 'Segoe UI', Ubuntu, sans-serif; }}
@@ -129,7 +130,8 @@ def make_svg(
   <rect class="bg" x="0.5" y="0.5" width="494" height="194" rx="4.5" />
   <text class="title" x="25" y="35">{safe_title}</text>
   {''.join(rows)}
-  <circle class="rank-rim" cx="420" cy="112" r="38" />
+  <circle class="rank-rim" cx="420" cy="112" r="40" />
+  <circle class="rank-progress" cx="420" cy="112" r="40" transform="rotate(-90 420 112)" />
   <text class="rank" x="420" y="121" text-anchor="middle">A+</text>
   <text class="rank-caption" x="420" y="160" text-anchor="middle">rank</text>
   <text class="updated" x="25" y="188">Public GitHub data · updated {updated}</text>
