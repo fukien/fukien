@@ -159,7 +159,7 @@ def make_svg(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--username", default=os.getenv("GITHUB_REPOSITORY_OWNER", "fukien"))
-    parser.add_argument("--svg", type=Path, default=Path("assets/github-stats.svg"))
+    parser.add_argument("--svg", type=Path, default=Path("assets/github-stats-v2.svg"))
     parser.add_argument("--readme", type=Path, default=Path("README.md"))
     args = parser.parse_args()
 
@@ -208,10 +208,10 @@ def main() -> int:
     args.svg.parent.mkdir(parents=True, exist_ok=True)
     args.svg.write_text(svg, encoding="utf-8")
     readme = args.readme.read_text(encoding="utf-8")
-    pattern = re.compile(r"!\[GitHub stats\]\(assets/github-stats\.svg(?:\?v=[^)]+)?\)")
+    pattern = re.compile(r"!\[GitHub stats\]\(assets/github-stats-v2\.svg(?:\?v=[^)]+)?\)")
     cache_version = os.getenv("GITHUB_RUN_ID") or now.strftime("%Y%m%d%H%M%S")
     updated_readme, replacements = pattern.subn(
-        f"![GitHub stats](assets/github-stats.svg?v={cache_version})",
+        f"![GitHub stats](assets/github-stats-v2.svg?v={cache_version})",
         readme,
         count=1,
     )
