@@ -7,11 +7,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - README.md
-      - scripts/update_commit_stats.py
-      - .github/workflows/update-commit-stats.yml
-      - assets/github-stats-v2.svg
 
 permissions:
   contents: write
