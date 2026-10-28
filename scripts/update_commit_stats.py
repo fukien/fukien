@@ -119,17 +119,23 @@ def make_svg(
     safe_scope = html.escape(f"{scope} · updated {updated}")
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
   <title id="title">{safe_title}</title>
-  <desc id="desc">Stars earned: {stars}. Commits: {commits}. Pull requests: {pull_requests}. Issues: {issues}. {safe_scope}.</desc>
+  <desc id="desc">Rank A+. Stars earned: {stars}. Commits: {commits}. Pull requests: {pull_requests}. Issues: {issues}. {safe_scope}.</desc>
   <style>
     .bg {{ fill: #1a1b27; stroke: #e4e2e2; }}
     .title {{ fill: #70a5fd; font: 600 18px 'Segoe UI', Ubuntu, sans-serif; }}
     .label, .value {{ fill: #38bdae; font: 600 14px 'Segoe UI', Ubuntu, sans-serif; }}
     .value {{ font-weight: 700; }}
     .scope {{ fill: #a9b1d6; font: 11px 'Segoe UI', Ubuntu, sans-serif; }}
+    .rank-rim {{ fill: none; stroke: #70a5fd; stroke-width: 6; opacity: .2; }}
+    .rank {{ fill: #38bdae; font: 800 27px 'Segoe UI', Ubuntu, sans-serif; }}
+    .rank-caption {{ fill: #a9b1d6; font: 11px 'Segoe UI', Ubuntu, sans-serif; }}
   </style>
   <rect class="bg" x="0.5" y="0.5" width="494" height="194" rx="4.5" />
   <text class="title" x="25" y="35">{safe_title}</text>
   {''.join(rows)}
+  <circle class="rank-rim" cx="420" cy="111" r="40" />
+  <text class="rank" x="420" y="120" text-anchor="middle">A+</text>
+  <text class="rank-caption" x="420" y="164" text-anchor="middle">rank</text>
   <text class="scope" x="25" y="184">{safe_scope}</text>
 </svg>
 '''
