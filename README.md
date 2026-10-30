@@ -1,10 +1,10 @@
 ## Hi there 👋
 
-😄 I am Wentao Huang, a CS PhD candidate at [National University of Singapore](https://www.nus.edu.sg/), working with [Prof. Kian-Lee Tan](https://www.comp.nus.edu.sg/~tankl/).
+I'm Wentao Huang, and I recently received my Ph.D. in Computer Science from the [National University of Singapore](https://www.nus.edu.sg/), where I was advised by [Prof. Kian-Lee Tan](https://www.comp.nus.edu.sg/~tankl/) and collaborated with [Prof. Bingsheng He](https://www.comp.nus.edu.sg/~hebs/).
 
-🧐 My research explores the art of data management through the lens of hardware-software co-design and HPC-driven system development. 
+My research applies systems-level optimization and performance modeling to accelerate AI and large-scale data processing on emerging hardware, including CXL, NVMe, and GPUs. I am especially interested in building high-performance agentic systems and efficient mixture-of-experts (MoE) LLM inference engines. I am currently exploring research and engineering opportunities, and welcome conversations about research collaborations.
 
-👯 Please feel free to contact me via email at huangwentao@u.nus.edu. Further information about me is available on my [webpage](https://www.comp.nus.edu.sg/~huang/). 
+Find more about me on my [personal homepage](https://fukien.github.io/) or [get in touch](mailto:huangwentaochina@gmail.com).
 
 <br>
 
