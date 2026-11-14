@@ -8,7 +8,7 @@ Find more about me on my [personal homepage](https://fukien.github.io/) or [get 
 
 <br>
 
-![GitHub stats](assets/github-stats-v2.svg?v=43398993767)
+![GitHub stats](assets/github-stats-v2.svg?v=43576868751)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=fukien&layout=compact&theme=tokyonight)
 ![Top Langs](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=fukien&layout=compact&hide=Jupyter+Notebook,html,css,javascript&show_icons=true&include_all_commits=true&langs_count=10&theme=tokyonight&role=OWNER,ORGANIZATION_MEMBER)
 
